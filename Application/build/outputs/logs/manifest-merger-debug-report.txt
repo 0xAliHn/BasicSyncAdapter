@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:1-100:12
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:1-100:12
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:1-100:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:1-100:12
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:1-100:12
+	package
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:21:5-51
+	android:versionName
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:23:5-30
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:22:5-28
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:29:22-64
+uses-permission#android.permission.READ_SYNC_STATS
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:31:22-71
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:33:5-77
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:33:22-75
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:35:22-77
+application
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:38:5-98:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:41:9-41
+	android:icon
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:40:9-45
+	android:allowBackup
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:39:9-35
+	android:theme
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:42:9-40
+activity#com.example.android.basicsyncadapter.EntryListActivity
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:45:9-53:20
+	android:label
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:46:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:51:27-74
+provider#com.example.android.basicsyncadapter.provider.FeedProvider
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:63:9-66:40
+	android:authorities
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:65:13-71
+	android:exported
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:64:13-50
+service#com.example.android.basicsyncadapter.SyncService
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:70:9-80:19
+	android:exported
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:70:18-45
+intent-filter#android.content.SyncAdapter
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:74:13-76:29
+action#android.content.SyncAdapter
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:75:17-70
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:75:25-67
+meta-data#android.content.SyncAdapter
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:78:13-79:55
+	android:resource
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:79:17-52
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:78:24-66
+service#com.example.android.common.accounts.GenericAccountService
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:88:9-96:19
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:88:18-90
+intent-filter#android.accounts.AccountAuthenticator
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:90:13-92:29
+action#android.accounts.AccountAuthenticator
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:91:17-80
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:91:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:94:13-95:57
+	android:resource
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:95:17-54
+	android:name
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml:94:24-76
+uses-sdk
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		ADDED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/ali/Development/Studio_Workspace/BasicSyncAdapter/Application/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/6396c632eca5a132562e43baa124873c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/gridlayout-v7-25.3.1.aar/5544bece86876779273b9e4a0a19cbb3/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/cardview-v7-25.3.1.aar/45f62995b76b6f9c01a884c834647000/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/af16718d83c4d2c5bdf2bb13eafa34af/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/eb5c9ce0ce1df3cb7423d12a2cb995c4/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/2ccced7e0103293dded4411f92a6594f/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/59e5e1b9fc3f627a9f76c880d6d16e73/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/c6669e62be5df7df5c058ae9cf31a708/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/943e4b0fe599bad12ec485df007d8eec/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/fe826a75b10416d92f24fc0f777dbeee/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/ali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/1014f3209b0a46914b098059b53318c0/AndroidManifest.xml:26:9-47
